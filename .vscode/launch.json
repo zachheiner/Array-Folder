@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/array-methods-sort.js"
+            "program": "${workspaceFolder}/array-methods-concat.js"
         }
     ]
 }
