@@ -22,4 +22,14 @@ var teamMembers = [ { name: 'Tim', pay: 15 }, { name: 'Andy', pay: 25 }, { name:
     { name: 'Sarah', pay: 18 }
   ];
 
+teamMembers.forEach( function(team){
+    console.log(team);
+    if (team.pay < 100){
+        team.pay += 2;
+    }
 
+    console.log(team)
+
+
+});
+console.log(teamMembers);
