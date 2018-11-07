@@ -17,11 +17,14 @@
 let todoList = [];
 
 console.log(todoList.unshift('Jog'));
-// James Weeks
+// 1
 console.log(todoList.unshift('Plan week'));
-// Bob Lopez
+// 2
 console.log(todoList.unshift('Buy groceries'));
-// Steve Marsh
+// 3
 console.log(todoList.unshift('Work'));
-// 
+// 4
 console.log(todoList.unshift('Go to movie'));
+// 5
+console.log(todoList);
+//Array(5) ["Go to movie", "Work", "Buy groceries", "Plan week", "Jog"]
