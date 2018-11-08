@@ -17,3 +17,12 @@
 // 5.Build your real world example.
 
 
+let classCredits = [1, 2, 3, 3, 4, 2];
+// array of classes
+var isOneFour = function(element){
+    return element === 4;
+};
+// function to see if one fo the classes is worth 4 
+
+console.log(classCredits.some(isOneFour));
+// hallelujah you have one class with 4 credits
