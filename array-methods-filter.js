@@ -20,7 +20,7 @@
 
 
 let addresses = [1234, 4356, 1245, 2343, 2437, 3548, 1114, 2243, 1241, 1342];
-
+// All of the address in the array
 let evenSide = addresses.filter(function(item){
     if(item % 2 === 0){
         return true;
@@ -29,8 +29,10 @@ let evenSide = addresses.filter(function(item){
         false;
     }
 })
+// use mod to sort even 
 
 console.log(evenSide);
+// look at the new array
 
 let oddSide = addresses.filter(function(item){
     if(item % 2 != 0){
@@ -40,11 +42,15 @@ let oddSide = addresses.filter(function(item){
         false;
     }
 })
+// use mod to sort odd
 
 console.log(oddSide);
+// look at the new array
 
 let sortedOdd = oddSide.sort();
+//sort it so it is in order
 let sortedEven = evenSide.sort();
 
 console.log(sortedOdd);
 console.log(sortedEven);
+// look at the new arrays
