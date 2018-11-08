@@ -16,7 +16,9 @@
 // 5.Build your real world example.
 
 let workoutReps = [30, 30, 30, 45, 15, 20]
+//array for reps in one chest workout.
 
+//set the new array to the old array and call the map
 let repsPerYear = workoutReps.map(function(element){
 
     let year = (element * 2) * 52
@@ -25,3 +27,5 @@ let repsPerYear = workoutReps.map(function(element){
 });
 
 console.log(repsPerYear);
+// Expected Array(6) [3120, 3120, 3120, 4680, 1560, 2080]
+// reps for chest for all year
