@@ -20,9 +20,11 @@
 // 5.Build your real world example.
 
 let shoppingList = [2.50, 3.75, 10.75, 19.30, 25];
+// initial array
 
 const addPrices = (accumulator, currentValue) => accumulator + currentValue;
-
+// function for adding the numbers together
 console.log(shoppingList.reduce(addPrices));
-
+// reduce all the prices to one. expected 61.3
 console.log(shoppingList.reduce(addPrices, 25.75));
+// reduce all the prices to one, adding the initial value. expect 87.05
