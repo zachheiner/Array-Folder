@@ -12,7 +12,17 @@
 // It returns a value that is the result of the function. 
 //
 // 4.How can I use this? Come up (not one off the internet) with a small real world example and explain it.
-// 1. 
-// 2.
+// 1. You need to know how much all the things you bougth in the grocery store are. You are putting the costs of
+// of all the items in an array.
+// 2. As you are being checked out, you find a knick knack that you must have. You add it using the intialvalue to figure
+// out if it is in your budget.
 //
 // 5.Build your real world example.
+
+let shoppingList = [2.50, 3.75, 10.75, 19.30, 25];
+
+const addPrices = (accumulator, currentValue) => accumulator + currentValue;
+
+console.log(shoppingList.reduce(addPrices));
+
+console.log(shoppingList.reduce(addPrices, 25.75));
