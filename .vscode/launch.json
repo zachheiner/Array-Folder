@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/array-methods-reduce.js"
+            "program": "${workspaceFolder}/array-methods-find.js"
         }
     ]
 }
