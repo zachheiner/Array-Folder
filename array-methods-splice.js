@@ -1,20 +1,25 @@
 // 1.What does it do? make sure to explain all the parameters. 
-//  The reduce method executes a function that reduces each member of the array into a single output.
-//  There are two parameters. First is the callBack function which determines what happens to the array.
-//  it has four parameters itself, which is the accumulator which holds all the information for the function,
-//  the current value, the surrent index, an the array itself. The next intial value is the first argument 
-//  that the callBack function will take.
+// The splice method allows yo uto change the contents of an array by removing and/ or adding new elements
+// There are 3 parameters. First is the start which is the index at which to start the change. Second is 
+// the deleteCount which is how many of the old elements in the array will be deleted. Lastly, there are the 
+// items, which are as many as you want added into that spot.
 //
 // 2.Does it edit the current array?
-// No it doesn't.
+// Yes it does. It can delete and add elements at specific spot into the array.
 //
 // 3.What does it return?
-// It returns a value that is the result of the function. 
+// The return value is an array containing all of the deleted elements.
 //
 // 4.How can I use this? Come up (not one off the internet) with a small real world example and explain it.
-// 1. You need to know how much all the things you bougth in the grocery store are. You are putting the costs of
-// of all the items in an array.
-// 2. As you are being checked out, you find a knick knack that you must have. You add it using the intialvalue to figure
-// out if it is in your budget.
+// You are a project manager for a semester long project, that a whole class is involved in. You have several
+// team leads that are revolving. Several will be switching out each week. Splice can do this for you.
 //
 // 5.Build your real world example.
+
+
+let teamLeads = ['Samantha', 'Christian', 'John', 'Ralph', 'Anthony', 'Conrad', 'Peter'];
+// create the array
+console.log(teamLeads.splice(1, 3, 'Tom','James', 'Rachel'));
+// starting at index 1, delete 3, add Tom James and Rachel
+console.log(teamLeads);
+// show the array after
