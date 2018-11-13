@@ -16,4 +16,6 @@
 // 5.Build your real world example.
 
 let classList = ['Zach', 'John', 'Sam', 'Peter', 'Brooke', 'Tim', 'Taylor', 'Dennis', 'Seth'];
-
+// create the array
+console.log(classList.indexOf('Brooke'));
+// output expected is 4
